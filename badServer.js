@@ -59,7 +59,7 @@ http.createServer(function (req, res) {
             res.end('Read error');
           }
         });
-        
+
       } else if (req.method === 'POST') {
 
         // Receiving POST data
@@ -89,4 +89,4 @@ http.createServer(function (req, res) {
     }
   }
 
-}).listen(80);
+}).listen(2000);
