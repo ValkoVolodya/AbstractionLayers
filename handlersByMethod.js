@@ -45,7 +45,7 @@ function postPersonHandler(req, res, callback){
     if (obj.name) obj.name = obj.name.trim();
     data = JSON.stringify(obj);
     api.logger.logData("From post request", data);
-    api.cashe.put(req.url, data, expireTime);
+    //api.cashe.put(req.url, data, api.config.expireTime);
     api.fs.writeFile('./person.json', data, function(err) {
       if (!err) {
         api.logger.logData("File Saved!", data);

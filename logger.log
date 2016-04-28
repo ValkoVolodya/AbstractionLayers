@@ -1,37 +1,37 @@
-{"level":"info","message":"Server started!","timestamp":"Thu Apr 28 2016 02:29:55 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 02:29:58 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:29:58 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:29:58 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 02:29:58 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 02:30:01 GMT+0300 (EEST)"}
-favicon.ico","timestamp":"Thu Apr 28 2016 02:07:47 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 02:09:47 GMT+0300 (EEST)"}
-":19}\"","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 02:00:16 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - POST | url - /person","timestamp":"Thu Apr 28 2016 02:00:40 GMT+0300 (EEST)"}
-"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 01:30:46 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 01:30:46 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 01:30:46 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 01:30:46 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 01:30:46 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 01:30:50 GMT+0300 (EEST)"}
-{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 01:30:50 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 01:30:50 GMT+0300 (EEST)"}
-{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 01:30:50 GMT+0300 (EEST)"}
-{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 01:30:50 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 01:30:51 GMT+0300 (EEST)"}
-{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 01:32:50 GMT+0300 (EEST)"}
+{"level":"info","message":"Server started!","timestamp":"Thu Apr 28 2016 10:49:58 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 10:50:01 GMT+0300 (EEST)"}
+{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:01 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:01 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:01 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /","timestamp":"Thu Apr 28 2016 10:50:05 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:05 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:06 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:18 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - POST | url - /person","timestamp":"Thu Apr 28 2016 10:50:33 GMT+0300 (EEST)"}
+{"level":"info","message":"From post request : \"{\\\"name\\\":\\\"notvova\\\",\\\"birth\\\":\\\"1996-11-12\\\"}\"","timestamp":"Thu Apr 28 2016 10:50:33 GMT+0300 (EEST)"}
+{"level":"info","message":"File Saved! : \"{\\\"name\\\":\\\"notvova\\\",\\\"birth\\\":\\\"1996-11-12\\\"}\"","timestamp":"Thu Apr 28 2016 10:50:33 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:33 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"vova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:37 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 10:50:45 GMT+0300 (EEST)"}
+{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:45 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:45 GMT+0300 (EEST)"}
+{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:45 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:45 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:46 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /person","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"Get from cashe : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"Data from person Handler : \"{\\\"name\\\":\\\"notvova\\\",\\\"age\\\":19}\"","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"response : res.code - 200| res.sendDate - true","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:50:47 GMT+0300 (EEST)"}
+{"level":"info","message":"request: method - GET | url - /favicon.ico","timestamp":"Thu Apr 28 2016 10:52:47 GMT+0300 (EEST)"}
