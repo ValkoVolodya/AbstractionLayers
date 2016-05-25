@@ -5,6 +5,7 @@ api.logger = require('./logger');
 //default data
 var expireTime = 3600 * 100;
 var port = 2000;
+var dataFile = "./person.json";
 
 api.fs.readFile('./config.json', function(err, data){
   if(!err){

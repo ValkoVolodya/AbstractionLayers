@@ -1,4 +1,5 @@
 {
   "expireTime": 360000,
-  "port": 2000
+  "port": 2000,
+  "dataFile": "./person.js"
 }

@@ -5,6 +5,7 @@ api.logger = require('./logger');
 api.cashe = require('./cashe');
 api.methods = require('./method');
 api.config = require('./config');
+api.parse = require('./parseObject');
 
 //questions:
 //how use buffers now, if I have send via cb
@@ -42,14 +43,12 @@ function nameHandler(req, res, callback){
       api.logger.logError(err);
       throw err;
     }
-    //divide the buiseness logic
-    var obj = JSON.parse(data);
-    var data = JSON.stringify(obj.name);
-
-    api.cashe.put(req.url, data, api.config.expireTime);
-    api.logger.logData("Data from person Handler", data);
-    var head = null;
-    callback(200, head, data);
+    api.parse.parseName(data, function(obj){
+      api.cashe.put(req.url, obj, api.config.expireTime);
+      api.logger.logData("Data from name Handler", obj);
+      var head = null;
+      callback(200, head, obj);
+    });
   });
 }
 
@@ -66,18 +65,13 @@ function ageHandler(req, res, callback){
       api.logger.logError(err);
       throw err;
     }
-    //divide the buiseness logic
-    var obj = JSON.parse(data);
-    obj.birth = new Date(obj.birth);
-    var difference = new Date() - obj.birth;
-    obj.age = Math.floor(difference / 31536000000);
-    delete obj.birth;
-    var data = JSON.stringify(obj.age);
 
-    api.cashe.put(req.url, data, api.config.expireTime);
-    api.logger.logData("Data from person Handler", data);
-    var head = null;
-    callback(200, head, data);
+    api.parse.parseAge(data, function(obj){
+      api.cashe.put(req.url, obj, api.config.expireTime);
+      api.logger.logData("Data from age Handler", obj);
+      var head = null;
+      callback(200, head, obj.toString());
+    });
   });
 }
 

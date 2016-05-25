@@ -4,6 +4,7 @@ api.cookies = require('./cookies');
 api.logger = require('./logger');
 api.cashe = require('./cashe');
 api.config = require('./config');
+api.parse = require('./parseObject');
 
 function getPersonHandler(req, res, callback) {
   //this code dublicates in name and age handlers
@@ -18,19 +19,12 @@ function getPersonHandler(req, res, callback) {
       api.logger.logError(err);
       throw err;
     }
-    //divide the buiseness logic
-    //or no? do I want one more callback?
-    var obj = JSON.parse(data);
-    obj.birth = new Date(obj.birth);
-    var difference = new Date() - obj.birth;
-    obj.age = Math.floor(difference / 31536000000);
-    delete obj.birth;
-    var data = JSON.stringify(obj);
-
-    api.cashe.put(req.url, data, api.config.expireTime);
-    api.logger.logData("Data from person Handler", data);
-    var head = null;
-    callback(200, head, data);
+    api.parse.parseObject(data, function(obj){
+      api.cashe.put(req.url, obj, api.config.expireTime);
+      api.logger.logData("Data from person Handler", obj);
+      var head = null;
+      callback(200, head, obj);
+    });
   });
 };
 
@@ -45,7 +39,7 @@ function postPersonHandler(req, res, callback){
     if (obj.name) obj.name = obj.name.trim();
     data = JSON.stringify(obj);
     api.logger.logData("From post request", data);
-    //api.cashe.put(req.url, data, api.config.expireTime);
+    api.cashe.put(req.url, data, api.config.expireTime);
     api.fs.writeFile('./person.json', data, function(err) {
       if (!err) {
         api.logger.logData("File Saved!", data);
